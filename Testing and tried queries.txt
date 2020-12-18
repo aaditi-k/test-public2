@@ -1,0 +1,10 @@
+1. Task 1 SP for Devops, Testing Query order by (right one orderby commented)
+ 
+CREATE DEFINER=`dmt_devuser`@`%` PROCEDURE `GetRecentCommitId`(p_ProjectCode varchar(25))
+BEGIN
+	SELECT  ReposCommitId
+	FROM commit
+    where ProjectCode=p_ProjectCode
+	ORDER BY CommitId DESC LIMIT 1;
+    -- ORDER BY CreatedDate DESC LIMIT 1;
+END
