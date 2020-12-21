@@ -9,7 +9,6 @@ Call prc_GetCodeAnalysisChartData(72,'2020-06-07','2020-11-06');
 -- ALTER TABLE pm_board ADD BoardTypeId INT;
 -- ALTER TABLE pm_board ADD CONSTRAINT FOREIGN KEY (BoardTypeId) REFERENCES pm_BoardType(BoardTypeId);
 
-This is a external addition to file
 create test table pm_SprintIssues1(
 CompletedInSprint boolean Not null,
 Sprintid int Not null,
