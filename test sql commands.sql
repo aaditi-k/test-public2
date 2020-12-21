@@ -9,7 +9,7 @@ Call prc_GetCodeAnalysisChartData(72,'2020-06-07','2020-11-06');
 -- ALTER TABLE pm_board ADD BoardTypeId INT;
 -- ALTER TABLE pm_board ADD CONSTRAINT FOREIGN KEY (BoardTypeId) REFERENCES pm_BoardType(BoardTypeId);
 
-
+This is a external addition to file
 create test table pm_SprintIssues1(
 CompletedInSprint boolean Not null,
 Sprintid int Not null,
@@ -19,10 +19,10 @@ foreign key(Sprintid) references pm_sprint(sprintid),
 foreign key(Issuetrackingid) references issuetracking(issuetrackingid)
 );
 
-Call prcDeleteProjectconfiguration(45);
 
 
-Select 
+
+Select1 
     1 as flag
     from ReposConfig rc 
     Inner join repos r on r.ReposConfigId = rc.ReposConfigId
