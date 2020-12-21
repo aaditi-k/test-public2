@@ -20,6 +20,7 @@ foreign key(Issuetrackingid) references issuetracking(issuetrackingid)
 
 
 Line added external
+Line 2 added
 
 
 Select1 
@@ -27,7 +28,7 @@ Select1
     from ReposConfig rc 
     Inner join repos r on r.ReposConfigId = rc.ReposConfigId
     inner join commit c on c.ReposId = r.ReposId
-    where projectConfigId = 45;
+    where projectConfigId = 451;
 
 
 call prcGetProjectConfigurations(1);
