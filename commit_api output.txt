@@ -11,10 +11,10 @@
         },
         "committer": {
             "name": "GitHub",
-            "email": "noreply@github.com",
+            "email": "aaditi.khedekar@github.com",
             "date": "2020-12-21T13:02:54Z"
         },
-        "message": "chnage3\n\nedit and added",
+        "message": "edited",
         "tree": {
             "sha": "254477e813ae2f1fd9155899a2047a82cfc7c73c",
             "url": "https://api.github.com/repos/aaditi-k/test-public2/git/trees/254477e813ae2f1fd9155899a2047a82cfc7c73c"
