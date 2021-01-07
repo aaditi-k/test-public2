@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ArrayOfMIssueTracking xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <MIssueTracking>
-    <IssueId>153730</IssueId>
-    <IssueKey>DMT-94</IssueKey>
-    <CreatedDate>2020-11-25T12:51:36+05:30</CreatedDate>
-    <UpdatedDate>2020-11-25T12:51:36+05:30</UpdatedDate>
-    <ChangeLogs />
-    <TrackingProjectId>0</TrackingProjectId>
-    <IssueType>
-      <IssueTypeId>3</IssueTypeId>
-    </IssueType>
-    <BlockedBy />
-    <BlockingTo />
-    <IssueTitle>test ticket 2</IssueTitle>
-  </MIssueTracking>
-  <MIssueTracking>
     <IssueId>153729</IssueId>
     <IssueKey>DMT-93</IssueKey>
     <CreatedDate>2020-11-25T12:49:56+05:30</CreatedDate>
