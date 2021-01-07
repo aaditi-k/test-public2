@@ -5,6 +5,8 @@ BEGIN
 	SELECT  ReposCommitId
 	FROM commit
     where ProjectCode=p_ProjectCode
+and subprojectid=1
 	ORDER BY CommitId DESC LIMIT 1;
     -- ORDER BY CreatedDate DESC LIMIT 1;
 END
+checklist done
