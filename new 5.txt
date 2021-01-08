@@ -3,9 +3,7 @@
   <MIssueTracking>
     <IssueId>153729</IssueId>
     <IssueKey>DMT-93</IssueKey>
-    <CreatedDate>2020-11-25T12:49:56+05:30</CreatedDate>
-    <UpdatedDate>2020-11-25T12:49:56+05:30</UpdatedDate>
-    <ChangeLogs />
+    <CreatedDate>2020-11-25T12:49:56+05:30</CreatedDate>    <ChangeLogs />
     <TrackingProjectId>0</TrackingProjectId>
     <IssueType>
     
